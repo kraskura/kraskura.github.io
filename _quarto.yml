@@ -3,18 +3,21 @@ project:
   output-dir: docs
 
 website:
-  title: "kraskura.github.io"
+  title: "Krista Kraskura"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: publications.qmd
+        text: Pubs
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: false
+    page-layout: full
 
 editor: visual
 

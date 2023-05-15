@@ -1,11 +1,29 @@
 ---
-title: "kraskura.github.io"
+title: 'Krista Kraskura'
+image: media/fish.png
+about:
+  template: solana
+  image-shape: round
+  image-width: 40em
+  links: 
+    - text: GitHub
+      icon: github
+      href: https://github.com/kraskura
+    - text: ResearchGate
+      icon: researchgate
+      href: https://www.researchgate.net/profile/Krista-Kraskura
+    - icon: envelope
+      text: Email
+      href: mailto:kkraskura@towson.edu
+      
 ---
 
-This is a Quarto website.
+## Sveiki! Hello 
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+{{< fa-solid fa-earth-americas title = "World">}}
 
-```{r}
-1 + 1
-```
+Personal blurb 
+
+## Education 
+
+## Hobbies 
