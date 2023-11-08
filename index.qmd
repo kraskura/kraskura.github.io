@@ -15,15 +15,6 @@ about:
     - icon: envelope
       text: Email
       href: mailto:kkraskura@towson.edu
-      
 ---
 
-## Sveiki! Hello 
-
-{{< fa-solid fa-earth-americas title = "World">}}
-
-Personal blurb 
-
-## Education 
-
-## Hobbies 
+## 
