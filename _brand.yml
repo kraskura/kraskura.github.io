@@ -1,0 +1,36 @@
+color:
+  palette:
+    head1: "#4F636C" # header 
+    back1: "#374756" # background
+    main1: "#9EACB1" # links
+    link1: "#D0C4AD" # text 
+  foreground: main1
+  background: back1
+  primary: head1
+typography: 
+  fonts:
+    - family: Avenir
+      source: google
+  base: Avenir
+  headings: Avenir
+  link: 
+    color: link1
+logo:
+  images:
+    icon:
+      path: media/logos/fish-1.png
+      alt: "fish1"
+    header:
+      path: media/logos/fish-1.png
+      alt: "fish1"
+    header-white:
+      path: media/logos/fish-1.png
+      alt: "fish1"
+    full:
+      path: media/logos/fish-1.png
+      alt: "fish1"
+  small: icon
+  medium:
+    light: header
+    dark: header-white
+  large: full

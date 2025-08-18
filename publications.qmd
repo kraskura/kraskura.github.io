@@ -1,0 +1,70 @@
+---
+title: |
+  | <br>
+  | PUBLICATIONS
+  | <br>
+title-block-banner: media/banner-perch.jpg
+---
+
+<p class="text-left fs-4">If you can't access any of the articles, please reach out and I will happily share. </p>
+<u>Underlined</u> Student; * Graduate student; ** Shared co-authorship
+
+##### 2025
+
+- Pleizier, N., Schwieterman, G.D., Birnie-Gauvin, K., Blewett, T.A., Dressler, T.L., Hardison, E.A., K.M.Jeffries. Kraskura, K., Teffer, A.K., Van Wert, J.C., Eliason, E.J. Conservation physiology of freshwater fishes: an illustration of pressing questions and implications for management. In Press. Conservation Physiology.
+
+
+##### 2024
+
+- Kraskura, K., Patterson, D. A. & Eliason, E. J. (2024) A review of adult salmon maximum swim performance. Canadian Journal of Fisheries and Aquatic Sciences. 81(9): 1174-1216. https://doi.org/10.1139/cjfas-2023-0246
+
+- Kraskura, K., <u>Anderson, C. E.</u> & Eliason, E. J. (2024) Pairing lab and field studies to predict thermal performance of wild fish. Journal of Thermal Biology. 103780. doi:10.1016/j.jtherbio.2023.103780
+
+##### 2023
+
+- Kraskura, K., Hardison, E. A. & Eliason, E.J. (2023) Body size and temperature affect metabolic and cardiac thermal tolerance in fish. Scientific Reports 13: 17900. https://doi.org/10.1038/s41598-023-44574-w
+
+- Csik, S. R., DiFiore, B. P., Kraskura, K., Hardison, E. A., Curtis, J. S., Eliason, E. J.  and Stier. A. C. (2023). The Metabolic Underpinnings of Temperature-Dependent Predation in a Key Marine Predator. Frontiers in Marine Science 10. https://www.frontiersin.org/articles/10.3389/fmars.2023.1072807
+
+- Little, A., Prystay, T., Hardison, E., Dressler, T., Kraskura, K., Cooke, S. J., Patterson, D. A., Hinch, S. G. and Eliason, E. J. (2023) Evaluating Cardiac Oxygen Limitation as a Mechanism for Female-Biased Mortality in Coho Salmon (Oncorhynchus kisutch). Canadian Journal of Zoology. In press. Canadian Journal of Zoology 101(3): 163–171. doi:10.1139/cjz-2022-0072.
+
+##### 2022
+
+- Anlauf-Dunn, K., Kraskura, K., Eliason, E. J. (2022) Intraspecific variability in thermal tolerance: Linking physiological performance and climate adaptation. Conservation Physiology, 10(1): coac029, https://doi.org/10.1093/conphys/coac029
+
+##### 2021
+
+- Hardison E. A., Kraskura, K., Van Wert, J., <u>Nguyen, T.</u>, and Eliason, E.J. (2021) Diet mediates thermal performance traits: implications for marine ectotherms. Journal of Experimental Biology. 224(21): jeb242846. https://doi.org/10.1242/jeb.242846
+
+- Kraskura, K.**, Hardison, E.**, Little, G.A., Dressler, T., Prystay, T.S., Hendriks, B., Farrell, T.P. Cooke, S.J., Patterson, D.A., Hinch, S. G., and Eliason, E. J. (2021) Sex-specific differences in swimming, aerobic scope, and recovery from exercise in adult coho salmon (Oncorhynchus kisutch) across ecologically relevant temperatures. Conservation Physiology. 9(1): coab016, https://doi.org/10.1093/conphys/coab016
+
+##### 2020
+
+- Oufiero, C.E., Kraskura, K., <u>Bennington, R.</u>, and Nelson, J. A. (2020) Individual repeatability of locomotor kinematics and swimming performance in a gymnotiform swimmer. Physiological and Biochemical Zoology. 94(1): 22-34. https://doi.org/10.1086/712058.
+
+- Little, A., Hardison, E., Kraskura, K., Dressler, T., Prystay, T., Hendriks, B., Pruitt N.J., Farrell, A.P., Cooke, S.J., Patterson, D.A., Hinch, S.G. and Eliason, E.J. (2020) Reduced metabolic capacity of the heart and suppressed sex hormone levels are associated with female-biased mortality during thermal stress in Pacific salmon. Journal of Experimental Biology 223: jeb214841. DOI: 10.1242/jeb.214841
+
+- Kraskura, K. and Nelson, J.A. (2020) Hypoxia tolerance is unrelated to swimming metabolism of wild, juvenile striped bass (Morone saxatilis). Journal of Experimental Biology. 223: jeb217125. DOI:10.1242/jeb.217125
+
+- Little, A., Dressler, T., Kraskura, K., Hardison, E., Hendricks, B., Prystay, T., Farrell, A.P., Cooke, S.J., Patterson, D.A., Hinch, S.G. and Eliason, E.J. (2020) Maxed out: Optimizing accuracy, precision and power for field measures of maximum metabolic rate in fishes. Physiological and Biochemical Zoology 93(3): 243-254. DOI: https://doi.org/10.1086/708673
+
+##### 2019
+
+- Jerde, C.L., Kraskura, K., Eliason, E.J., Csik, S., Stier, A.C., Taper, M.L. (2019) Strong evidence for an intraspecific metabolic scaling coefficient near 0.89 in fish. Frontiers in Physiology 10:1166. DOI: 10.3389/fphys.2019.01166
+
+- Nelson, J.A., Kraskura, K. and Lipkey, G.K. (2019) Repeatability of hypoxia tolerance of individual juvenile striped bass Morone saxatilis and effects of social status. Physiological and Biochemical Zoology 92(4):396-407. https://doi.org/10.1086/704010
+
+##### 2018
+
+- Kraskura, K. and Nelson, J.A. (2018) Hypoxia and sprint swimming performance of juvenile striped bass, Morone saxatilis. Physiological and Biochemical Zoology 91(1):682–690. https://doi.org/10.1086/694933
+
+<br> 
+
+#### Reports and datasets
+
+- Kraskura, K., Jerde, C., Eliason, E.J., (2021). Data from: Strong evidence for an intraspecific metabolic scaling coefficient near 0.89 in fish. Dryad. https://doi.org/10.25349/D9SP6V
+
+- Kraskura, K., Patterson, D.A., Eliason, E.J. (2020) Swim performance of salmon: a comprehensive review and data synthesis. Technical Report. Pacific Salmon Commission, Vancouver, B.C., Canada.
+
+<br>
+**Additional links**: [Google Scholar](https://scholar.google.com/citations?user=EVMUHDcAAAAJ&hl=en), [Research Gate](https://www.researchgate.net/profile/Krista-Kraskura), [Dryad](https://datadryad.org/search?q=0000-0001-9225-3037)

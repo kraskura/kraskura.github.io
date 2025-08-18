@@ -1,0 +1,57 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Kraskura Lab"
+  favicon: media/logos/fish-1.png # on the browser tab 
+  navbar:
+    # left:
+    #   - href: index.qmd
+    #     text: HOME
+    right:
+      - href: people.qmd
+        text: TEAM
+      - href: projects.qmd
+        text: PROJECTS
+      - href: teaching.qmd
+        text: TEACHING
+      - href: publications.qmd
+        text: PUBLICATIONS
+      - href: stories.qmd
+        text: LAB ACTIVITIES
+    tools:
+      - href: https://github.com/kraskura
+        icon: github
+      - href: https://scholar.google.com/citations?hl=en&user=EVMUHDcAAAAJ
+        icon: google scholar
+      - href: https://www.researchgate.net/profile/Krista-Kraskura?ev=hdr_xprf
+        icon: file-person
+    search: false
+    pinned: false
+  page-footer: 
+    left: © 2025 Krista Kraskura
+    right: 
+      - text: Created with
+      - icon: github
+        href: https://github.com/
+      - href: https://quarto.org/
+        text: and Quarto
+        
+
+format:
+  html:
+    theme: 
+      - styles/styles.scss
+      - cosmos
+    mainfont: Avenir
+    toc: false
+    page-layout: full
+
+brand: _brand.yml
+  
+open-graph: true
+
+
+
+

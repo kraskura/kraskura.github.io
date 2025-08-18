@@ -1,0 +1,46 @@
+
+
+/*-- scss:rules --*/
+
+.title {
+  text-align: center;
+  color: rgb(206, 196, 173) !important;
+}
+
+/* homepage */
+.content-container {
+  padding-left: 2em;
+  padding-right: 2em;
+  
+}
+
+/* -- people --*/
+
+.listing-box-image {
+  object-fit: contain;
+  width: 100%;
+  height: 700px;
+  border-radius: 50%;
+}
+
+.listing-box-image {
+  object-fit: contain;
+  width: 100%;
+  height: 700px;
+  border-radius: 50%;
+}
+
+.navbar-brand img { 
+  max-height: 50px;
+  width: auto;
+}
+
+// animate logo (rises on hover) from Sam 
+.navbar-logo {
+  transition: all 0.3s;
+}
+
+.navbar-logo:hover {
+  transform: translateY(-4px);
+}
+

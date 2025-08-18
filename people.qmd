@@ -1,0 +1,71 @@
+---
+title: |
+  | <br>
+  | TEAM
+  | <br>
+title-block-banner: media/banner-beach.jpg
+page-layout: full
+listing: 
+  - id: pi
+    template: ejs/people_pi_box.ejs
+    contents: people-pi.yml
+    image-align: left
+    fields: []
+    filter-ui: false
+    sort-ui: false
+    type: grid
+    max-description-length: 700
+    grid-item-border: false
+  - id: graduate-students
+    template: ejs/people_box.ejs
+    contents: people-graduate-students.yml
+    image-align: left
+    fields: []
+    filter-ui: false
+    sort-ui: false
+    type: grid
+    max-description-length: 700
+    grid-item-border: false
+#  - id: ugraduate-students
+#    template: ejs/people_box.ejs
+#    contents: people-ugraduate-students.yml
+#    image-align: left
+#    fields: []
+#    filter-ui: false
+#    sort-ui: false
+#    type: grid
+#    max-description-length: 700
+#    grid-item-border: false
+
+#  - id: past-students
+#    contents: people-past-students.yml
+#    filter-ui: false
+#    sort-ui: false
+#    type: table
+#    max-description-length: 500
+#    max-items: 100
+---
+
+<p class="text-center fs-4"> Join us! We are always happy to hear from interested undergraduate and graduate students. </p>
+
+<br> 
+
+:::{#pi}
+:::
+
+
+
+:::{#graduate-students}
+:::
+
+
+
+<!--
+## Previously mentored students 
+
+<br>
+
+
+:::{#past-students}
+:::
+-->

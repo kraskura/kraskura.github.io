@@ -1,0 +1,38 @@
+---
+title: |
+    | <br>
+    | TEACHING
+    | <br>
+title-block-banner: media/banner-tu.jpg
+
+---
+
+<p class="text-center fs-4"> I strive to adopt feedback-guided flexible teaching approaches that help students take agency in their learning process and build confidence that fosters their connection to the material. Alongside of effective content delivery, community culture where all students are valued and respected by their instructor and peers is my top priority. I celebrate when students find joy in learning and stay curious! </p>
+
+
+- **BIOL 325:** Animal Physiology
+
+<!--
+    - <p class="fw-lighter">Animal structure and function from molecular to organismic levels. Emphasizing i) comparative strategies and adaptations of various animal groups in their environments, ii) response of integrated systems to changes in the physical and chemical environment, iii) environmental physiology. </p>
+-->
+
+- **BIOL 604:** Mechanisms in Animal Physiology
+
+<!--
+    - <p class="fw-lighter">All levels of biological organization, from the molecular level to whole animal, learning about how animals operate under optimal conditions and cope with stressful conditions. The topics include metabolism, thermoregulation, cardiorespiratory physiology, osmoregulation, sensory physiology, and others based on student interests. Exploring the applied aspects of mechanistic physiology, including conservation and biomedical research.</p>
+--> 
+
+- **BIOL 206L:** Biology II: Introduction to Ecology and Evolution [Lab]
+
+<!--
+    - <p class="fw-lighter">Focused on gathering biological data, developing testable hypotheses and quantitative analysis of biological data.</p>
+
+--> 
+- **BIOL 601:** Current topics in a specific area of biology. 
+    The area varies each time the course is offered. 
+
+
+<br>
+<br>
+
+

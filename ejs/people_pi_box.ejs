@@ -1,0 +1,63 @@
+```{=html}
+
+<div class="quarto-listing quarto-listing-container-grid">
+  
+  <div class="list"> 
+
+    <% for (const item of items) { ;%> 
+    
+    <div class="g-col-1 listing-box">
+      
+      <!-- <a href="<%- item.path %>" role="button disabled" class="quarto-grid-link"> -->
+        <div class="justify-content-center d-md-flex">
+          
+          
+          <div class = "content-container">
+            <!-- <p class="card-img-top"> -->
+              <div class="center-block">
+              <img alt="<%= item.title %>" src="<%= item.image %>" class="thumbnail-image card-img listing-box-image" style="width: 330px; height: 330px;">
+            <!-- </p> -->
+              </div>
+          </div>
+          
+          <div class = "content-container">
+            
+            <div class="listing-box-title">
+              <h3><%= item.title %> </h3>
+            </div>
+               
+            <div class="listing-box-subtitle">
+              <%= item.subtitle %><br>
+              <br>
+            </div>
+
+            <div class="listing-box-description">
+              <%= item.description %><br>
+            </div>
+
+            <div class="listing-box-social">
+              <%= item.social %><br>
+            </div>
+            
+            <!-- <div class="listing-box-education">
+            
+            <% if (item.education) { %>
+                <%= item.education %><br>
+                <%} else { %>
+                <p>  </p>
+                <% } %>
+                
+            </div>   -->
+            
+          </div>  
+        </div>  
+      <!-- </a> -->
+      
+    </div>
+  
+    <% } %>
+  
+</div>
+</div>
+
+```

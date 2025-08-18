@@ -1,0 +1,41 @@
+```{=html}
+
+<div >
+
+  <% for (const item of items) { ;%> 
+
+  <div class="d-flex">
+      <div class="d-flex aligh-items-center">
+        <p class="card-img-top ">
+          <img alt="<%= item.title %>" src="<%= item.image %>" style="width: 330px; height: 330px;">
+        </p>
+      </div>
+      
+      <div class="mw-50 p-3">
+        <h3>
+          <%= item.title %> 
+
+          <!-- <a href="http://localhost:5931/projects.html" class="no-external"
+            data-original-href="http://localhost:5931/projects.html">Ecological physiology of fish across body sizes and
+            lifestages</a> -->
+
+        </h3>
+        <div class="listing-description">
+            <p>
+              <%= item.description %>
+            </p>
+        </div>
+    </div>
+    <!-- <div class="metadata">
+      <a href="http://localhost:5931/projects.html" class="no-external"
+        data-original-href="http://localhost:5931/projects.html">
+      </a>
+    </div> -->
+
+  </div>
+
+  <% } %>
+
+</div>
+
+```

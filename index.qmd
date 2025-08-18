@@ -1,0 +1,21 @@
+---
+title: "Fish (and other animal) ecological physiology"
+image: media/surfperch-logo.jpeg
+about: 
+    template: solana
+    image-shape: round
+    image-width: 30em
+---
+
+Welcome to the Ecological Physiology Lab at Towson University! We explore how aquatic ectotherms—especially fish—respond to various natural and human-induced environmental stressors such as temperature fluctuations, salinity changes, hypoxia, altered flows, and toxicants.
+
+We take an integrative approach, combining laboratory experiments, field studies, and quantitative techniques to examine various aspects of animal physiology, which include but are not limited to metabolic rates, cardiac performance and swimming performance. Rooted in a spirit of teamwork and cultivating a supportive environment for everyone we strive to generate insights that can inform conservation and management strategies for aquatic ecosystems.
+
+---------------------------------------
+
+<p class="text-center fs-4"> We are always excited to exchange ideas and establish new connections-- If you are interested in what we do and would like to join the lab - we would love to hear from you!</p>
+
+---------------------------------------
+
+<br>
+Image (art) credit: Vinicius Goecks <a href="https://www.instagram.com/vguigo.artworks" target="_blank"><i class="bi bi-instagram"></i></a> <a href = "https://vguigo.com/" target="_blank"><i class="bi bi-box-arrow-up-right"></i></a>
