@@ -1040,6 +1040,10 @@ $theme-name: null !default;
 // quarto-scss-analysis-annotation { "origin": "Defaults from user-defined SCSS" }
 
 
+/* Navbar colors */
+$navbar-bg: #374756; /* navbar background color */
+$navbar-fg: #d1dce0; /* navbar text color */
+$navbar-hl: #9EACB1; /* navbar hover/active color */
 
 
 // Heading font size customization
@@ -1060,6 +1064,77 @@ $font-size-root: 17px !default;
 
 // Disable smooth scrolling
 $enable-smooth-scroll: false !default;
+
+// quarto-scss-analysis-annotation { "origin": "cosmo (builtin theme)" }
+
+$theme: "cosmo" !default;
+
+//
+// Color system
+//
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #373a3c !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$blue:    #2780e3 !default;
+$indigo:  #6610f2 !default;
+$purple:  #613d7c !default;
+$pink:    #e83e8c !default;
+$red:     #ff0039 !default;
+$orange:  #f0ad4e !default;
+$yellow:  #ff7518 !default;
+$green:   #3fb618 !default;
+$teal:    #20c997 !default;
+$cyan:    #9954bb !default;
+
+$primary:       $blue !default;
+$secondary:     $gray-800 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+$min-contrast-ratio:   2.6 !default;
+
+// Options
+
+$enable-rounded: false !default;
+
+// Body
+
+$body-color:    $gray-800 !default;
+
+// Fonts
+
+// stylelint-disable-next-line value-keyword-case
+$font-family-sans-serif:    "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$headings-font-weight:      400 !default;
+
+// Navbar
+
+$navbar-dark-hover-color:       rgba($white, 1) !default;
+$navbar-light-hover-color:      rgba($black, .9) !default;
+
+// Alerts
+
+$alert-border-width:            0 !default;
+
+// Progress bars
+
+$progress-height:               .5rem !default;
+
+
 
 /*-- scss: functions --*/
 
@@ -1102,7 +1177,6 @@ $btn-code-copy-color: #5E5E5E !default;
 $btn-code-copy-color-active: #4758AB !default;
 /* typography variables from _brand.yml */
 // quarto-scss-analysis-annotation { "action": "push", "origin": "_brand.yml typography" }
-$link-color: #D0C4AD !default;
 $headings-font-family: Avenir !default;
 $presentation-heading-font: Avenir !default;
 $font-family-base: Avenir !default;
@@ -1111,16 +1185,19 @@ $mermaid-font-family: Avenir !default;
 // quarto-scss-analysis-annotation { "action": "pop" }
 /* color variables from _brand.yml */
 // quarto-scss-analysis-annotation { "action": "push", "origin": "_brand.yml color" }
-$brand-head1: #4F636C !default;
-$brand-back1: #374756 !default;
-$brand-main1: #9EACB1 !default;
-$brand-link1: #D0C4AD !default;
+$brand-primary: #374756 !default;
+$brand-secondary: #9EACB1 !default;
+$brand-background: #d1dce0 !default;
+$brand-text: #9EACB1 !default;
 $foreground: #9EACB1 !default;
-$background: #374756 !default;
-$primary: #4F636C !default;
+$background: #d1dce0 !default;
+$primary: #374756 !default;
 $pre-color: #9EACB1 !default;
-$body-bg: #374756 !default;
+$body-bg: #d1dce0 !default;
 $body-color: #9EACB1 !default;
+$body-secondary-color: #9EACB1 !default;
+$body-secondary: #9EACB1 !default;
+$body-tertiary: #9EACB1 !default;
 // quarto-scss-analysis-annotation { "action": "pop" }
 $theme: "brand" !default;
 
@@ -12585,10 +12662,10 @@ a.external:after:hover {
 /* color CSS variables from _brand.yml */
 // quarto-scss-analysis-annotation { "action": "push", "origin": "_brand.yml color" }
 :root {
-  --brand-head1: #4F636C;
-  --brand-back1: #374756;
-  --brand-main1: #9EACB1;
-  --brand-link1: #D0C4AD;
+  --brand-primary: #374756;
+  --brand-secondary: #9EACB1;
+  --brand-background: #d1dce0;
+  --brand-text: #9EACB1;
 }
 // quarto-scss-analysis-annotation { "action": "pop" }
 
@@ -12791,56 +12868,130 @@ main.quarto-banner-title-block > section:first-child > h4 {
 
 
 
-/* homepage */
-.content-container {
-  padding-left: 1.5em;
-  padding-right: 1.5em;
+// Variables
+
+$web-font-path: "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap" !default;
+@if $web-font-path {
+  @import url($web-font-path);
+}
+
+// Typography
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+// Indicators
+
+.badge {
+  &.bg-light {
+    color: $dark;
+  }
+}
+
+// Progress bars
+
+.progress {
+  @include box-shadow(none);
+
+  .progress-bar {
+    font-size: 8px;
+    line-height: 8px;
+  }
+}
+
+
+// quarto-scss-analysis-annotation { "origin": null }
+
+
+/* Additional navbar styling */
+.navbar {
+  background-color: $navbar-bg !important;
   
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    color: $navbar-fg !important;
+    
+    &:hover {
+      color: $navbar-hl !important;
+    }
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: $navbar-hl !important;
+  }
 }
 
-.welcome {
-  max-width: 1000px;
-  margin: 0 auto;
-  margin-bottom: 1em; 
-  box-sizing: border-box;
-  height: auto;
-  display: flex;
-  align-items: center;
+/* Page title styling */
+.quarto-title-block .quarto-title h1.title,
+h1.title {
+  color: #d1dce0 !important; /* Change this to your preferred title color */
+  text-align: center;
 }
 
-.welcome img {
-  height: 100%;
-  object-fit: cover;
+/* All page headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #333942 !important; /* Heading color for all levels */
 }
 
-
-.welcome-text {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-top: 1.5rem;
-  // font-weight: bold;
-  font-size: larger;
+/* General styles */
+.content-container {
+  padding-left: 2em;
+  padding-right: 2em;
 }
-
-
-.welcome-img p {
-  margin-bottom: 0;
-}
-
-/* -- people --*/
 
 .listing-box-image {
-  object-fit: contain;
-  width: 100%;
-  height: 190px;
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
-
-.title-block .title {
-  text-align: center;
-  color: white;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+.navbar-brand img { 
+  max-height: 50px;
+  width: auto;
 }
 
+.navbar-logo {
+  transition: all 0.3s;
+  
+  &:hover {
+    transform: translateY(-4px);
+  }
+}
+
+/* Title styling */
+.title {
+  text-align: center;
+  color: #333942 !important; /* Change this to your preferred header color */
+}
+
+/* Grid listing cards */
+#update-listings {
+  .card {
+    background-color: #6B7B92 !important; /* Change this to your preferred background color */
+    border-color: #9EACB1 !important; /* Change this to your preferred border color */
+    
+    &:hover {
+      background-color: #6B7B92 !important; /* Slightly darker on hover */
+    }
+  }
+  
+  .card-body {
+    background-color: ##6B7B92 !important; /* Match card background */
+    color: #374756 !important; /* Change this to your preferred text color */
+  }
+  
+  .card-title {
+    color: #000000 !important; /* Card title color */
+  }
+}
+
+/* Center title on stories page */
+.quarto-title-block {
+  text-align: center;
+}
 
 // quarto-scss-analysis-annotation { "origin": null }

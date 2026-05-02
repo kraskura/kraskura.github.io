@@ -8,7 +8,7 @@ title: |
 title-block-banner: media/banner-carp.jpg
 listing: 
   - id: fish-ecophys
-    contents: projects-fish.yml
+    contents: Projects/projects-fish.yml
     image-align: left
     fields: [image, title, description]
     filter-ui: false
@@ -16,7 +16,7 @@ listing:
     type: default
     max-description-length: 4000
   - id: crayfish-animals
-    contents: projects-crayfish.yml
+    contents: Projects/projects-crayfish.yml
     image-align: left
     fields: [image, title, description]
     filter-ui: false
@@ -24,7 +24,7 @@ listing:
     type: default
     max-description-length: 4000
   - id: ecotox-ecophys
-    contents: projects-ecotox.yml
+    contents: Projects/projects-ecotox.yml
     image-align: left
     fields: [image, title, description]
     filter-ui: false

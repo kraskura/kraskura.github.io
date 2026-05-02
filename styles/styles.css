@@ -1,1 +1,15 @@
 
+/* Change grid card background color */
+.quarto-listing-grid .card {
+  background-color: #f0f8ff !important;
+}
+
+/* Optional: Change border color */
+.quarto-listing-grid .card {
+  border: 1px solid #d0e8f0 !important;
+}
+
+/* Optional: Add hover effect */
+.quarto-listing-grid .card:hover {
+  background-color: #e0f0ff !important;
+}

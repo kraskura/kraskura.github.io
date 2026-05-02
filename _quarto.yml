@@ -42,8 +42,7 @@ website:
 format:
   html:
     theme: 
-      - styles/styles.scss
-      - cosmos
+      light: [cosmo, styles/styles.scss]
     mainfont: Avenir
     toc: false
     page-layout: full

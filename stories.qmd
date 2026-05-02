@@ -1,3 +1,20 @@
-<p class="text-center fs-3">More soon! </p>
+---
+title: |
+  | <br>
+  | ADVENTURES
+  | <br>
+page-layout: full
+title-block-banner: media/fish-banner.png
+listing:
+  id: update-listings
+  contents: "Posts/*.qmd"
+  type: grid
+  grid-columns: 3
+  grid-item-border: true
+  sort: "date desc"
+  categories: true
 
-<p class="text-center fs-4"> We will post short stories and picrtures on the lab's research activities, outreach, conference participation, and all other success stories. </p> 
+---
+
+::: {#update-listings}
+:::

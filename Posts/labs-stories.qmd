@@ -1,0 +1,13 @@
+---
+title: "First field seining and fish in the lab!"
+date: "2023-12-10"
+categories: [field, fish]
+image: "seining.jpeg"
+---
+
+::: {layout-ncol=2}
+!(seining.jpeg)
+::: 
+
+
+
