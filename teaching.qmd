@@ -7,7 +7,7 @@ title-block-banner: media/banner-tu.jpg
 
 ---
 
-<p class="text-center fs-4"> I strive to adopt feedback-guided flexible teaching approaches that help students take agency in their learning process and build confidence that fosters their connection to the material. Alongside of effective content delivery, community culture where all students are valued and respected by their instructor and peers is my top priority. I celebrate when students find joy in learning and stay curious! </p>
+<p class="text-center fs-4"> I strive to adopt feedback-guided flexible teaching approaches that help students take agency in their learning process and build confidence that fosters their connection to the material. Alongside of effective content delivery, community culture where all students are valued and respected by their instructor and peers is my top priority. We are all here to learn, bring some joy, and stay curious! </p>
 
 
 - **BIOL 325:** Animal Physiology

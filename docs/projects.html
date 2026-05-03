@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>quarto-input5b37cade560f8ae7 – Kraskura Lab</title>
+<title>quarto-inputd8720bc1e7dc9567 – Kraskura Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./media/logos/fish-1.png" rel="icon" type="image/png">
+<link href="./media/logos/fish.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0449e44ec7e089f2194a0949b3ae9638.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-29c21fba4fba93b2d7066a7c7aa0b213.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -129,6 +129,34 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-turtles .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-image","listing-image-alt","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-turtles'] = new List('listing-turtles', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-ecotox-ecophys .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -195,7 +223,7 @@ window.Quarto = {
 
 <meta property="og:title" content="|  | PROJECTS |  – Kraskura Lab">
 <meta property="og:description" content="">
-<meta property="og:image" content="media/barred-surfperch.jpg">
+<meta property="og:image" content="media/striped-bass-larva.jpg">
 <meta property="og:site_name" content="Kraskura Lab">
 <meta property="og:image:alt" content="Barred surfperch">
 </head>
@@ -208,7 +236,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./media/logos/fish-1.png" alt="fish1" class="navbar-logo">
+    <img src="./media/logos/fish.png" alt="fish" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Kraskura Lab</span>
@@ -290,7 +318,7 @@ We investigate physiological mechanisms in fish (and other animals) from a varie
 <div class="quarto-post image-left" data-index="0">
 <div class="thumbnail"><a href="" class="no-external">
 
-<img loading="lazy" src="media/barred-surfperch.jpg" class="thumbnail-image" alt="Barred surfperch">
+<img loading="lazy" src="media/striped-bass-larva.jpg" class="thumbnail-image" alt="Barred surfperch">
 
 </a></div>
 <div class="body">
@@ -298,7 +326,7 @@ We investigate physiological mechanisms in fish (and other animals) from a varie
 <a href="" class="no-external">Ecological physiology of fish across body sizes and lifestages</a>
 </h3>
 <div class="delink listing-description"><a href="" class="no-external">
-<p><br> As fish grow and mature, they may shift habitats, encounter new environmental stressors, and reallocate energy from growth toward reproduction. Our projects explore both acute and acclimation responses in fish and other ectotherms across body size (and life-stags) as they face a range of environmental challenges. Through this work, we aim to better understand the physiological mechanisms that drive species’ vulnerability or resilience in dynamic ecosystems.</p>
+<p><br> We are exploring thermal tolerance in early life striped bass. As fish grow and mature, they may shift habitats, encounter new environmental stressors, and reallocate energy from growth toward reproduction. Our projects explore both acute and acclimation responses in fish and other ectotherms across body size (and life-stags) as they face a range of environmental challenges. Through this work, we aim to better understand the physiological mechanisms that drive species’ vulnerability or resilience in dynamic ecosystems.</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -322,7 +350,31 @@ We investigate physiological mechanisms in fish (and other animals) from a varie
 <a href="" class="no-external">Native and invasive crayfish in urban streams</a>
 </h3>
 <div class="delink listing-description"><a href="" class="no-external">
-<p><br> Freshwater salinization is an emerging concern across urban landscapes, impacting stream ecosystems and aquatic life. Our current projects compare the effects of elevated salinity (NaCl) on metabolic rates in native and widely distributed invasive crayfish species in Maryland with the aim to understand better the physiological capacities that may contribute to the success of invasive species in urbanized freshwater systems.</p>
+<p><br> Freshwater salinization is an emerging concern across urban landscapes, impacting stream ecosystems and aquatic life. Our current projects compare the effects of elevated salinity (NaCl) on metabolic rates in native and widely distributed invasive crayfish species in Maryland with the aim to understand better the physiological capacities that may contribute to the success of invasive species in urbanized freshwater systems. Students under this project are also co-advised by Dr.&nbsp;Salice.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="" class="no-external">
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div id="listing-turtles" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-left" data-index="0">
+<div class="thumbnail"><a href="" class="no-external">
+
+<img loading="lazy" src="media/turtle-hatchlings.png" class="thumbnail-image" alt="turtle hatchling">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="" class="no-external">Locomotion in freshwater turtles</a>
+</h3>
+<div class="delink listing-description"><a href="" class="no-external">
+<p><br> Over half of freshwater turtle species face extinction risks. Hatchlings are the most vulnerable - They are tiny, extremely prone to predation, and generally have very low survival rates. We will measure locomotive performance as part of a larger interdisciplinary project with TU colleagues Drs. Steve Kimble, Xin Huang, and Ryan Casey.</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -343,10 +395,10 @@ We investigate physiological mechanisms in fish (and other animals) from a varie
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="" class="no-external">Ecological toxicology. Per- and polyfluoroalkyl substances (PFAS) in aquatic systems</a>
+<a href="" class="no-external">Ecological toxicology</a>
 </h3>
 <div class="delink listing-description"><a href="" class="no-external">
-<p><br> PFAS, often called “forever chemicals,” are a broad class of persistent and bioaccumulative compounds found globally in water, air, soil, sediment. Exposure to PFAS can have harmful effects on the health of both animals and humans. Our research focuses on understanding PFAS bioaccumulation across food webs in wild ecosystems, where exposure varies across time and space. In the lab, we investigate the causes and consequences of PFAS uptake in fish.</p>
+<p><br> We are interested in how human-made and natural contaminants impact function of fish and ultimately ecosystems. For example, PFAS, often called “forever chemicals,” are a broad class of persistent and bioaccumulative compounds found globally in water, air, soil, sediment. Exposure to PFAS can have harmful effects on the health of both animals and humans. This research path is inspired from work done with Dr.&nbsp;Salice’s here at TU. We focus on understanding PFAS bioaccumulation across food webs in wild ecosystems, where exposure varies across time and space.</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -358,7 +410,7 @@ We investigate physiological mechanisms in fish (and other animals) from a varie
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 <p class="text-center fs-3">
-Check in soon to learn more about the upcoming collaborative projects on anemones, turtles, and tadpoles.
+Check in soon to learn more about the upcoming collaborative projects on anemones and tadpoles.
 </p>
 
 

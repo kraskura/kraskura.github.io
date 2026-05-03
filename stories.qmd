@@ -1,10 +1,6 @@
 ---
-title: |
-  | <br>
-  | ADVENTURES
-  | <br>
+title: ""
 page-layout: full
-title-block-banner: media/fish-banner.png
 listing:
   id: update-listings
   contents: "Posts/*.qmd"
@@ -15,6 +11,8 @@ listing:
   categories: true
 
 ---
+
+<p class="text-center fs-4">In Progress. We will report on our adventures looking for salty frogs, working with Striped bass embryos and larvae, and more.</p>
 
 ::: {#update-listings}
 :::

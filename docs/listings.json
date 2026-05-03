@@ -1,16 +1,16 @@
 [
   {
-    "listing": "/projects.html",
+    "listing": "/people.html",
     "items": []
   },
   {
-    "listing": "/people.html",
+    "listing": "/projects.html",
     "items": []
   },
   {
     "listing": "/stories.html",
     "items": [
-      "/Posts/labs-stories.html"
+      "/Posts/template.html"
     ]
   }
 ]

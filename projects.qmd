@@ -23,6 +23,14 @@ listing:
     sort-ui: false
     type: default
     max-description-length: 4000
+  - id: turtles
+    contents: projects-turtles.yml
+    image-align: left
+    fields: [image, title, description]
+    filter-ui: false
+    sort-ui: false
+    type: default
+    max-description-length: 4000
   - id: ecotox-ecophys
     contents: Projects/projects-ecotox.yml
     image-align: left
@@ -31,14 +39,7 @@ listing:
     sort-ui: false
     type: default
     max-description-length: 4000
-#  - id: synthesis-ecophys
-#    contents: projects-synthesis.yml
-#    image-align: left
-#    fields: [image, title, description]
-#    filter-ui: false
-#    sort-ui: false
-#   type: default
-#    max-description-length: 4000
+
 ---
 
 <p class="text-center fs-4"> We investigate physiological mechanisms in fish (and other animals) from a variety of habitats to characterise their resilience and vulnerability under natural and human-associated environmental change. Open-minded and joy filled whiteboard brainstorming session is one of our favorite lab activities!</p>
@@ -51,7 +52,10 @@ listing:
 :::{#crayfish-animals}
 :::
 
+:::{#turtles}
+:::
+
 :::{#ecotox-ecophys}
 :::
 
-<p class="text-center fs-3"> Check in soon to learn more about the upcoming collaborative projects on anemones, turtles, and tadpoles. </p>
+<p class="text-center fs-3"> Check in soon to learn more about the upcoming collaborative projects on anemones and tadpoles. </p>

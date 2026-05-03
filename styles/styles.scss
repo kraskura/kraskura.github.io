@@ -25,11 +25,16 @@ $navbar-hl: #9EACB1; /* navbar hover/active color */
   }
 }
 
-/* Page title styling */
+/* Page title styling (default dark) */
 .quarto-title-block .quarto-title h1.title,
 h1.title {
-  color: #d1dce0 !important; /* Change this to your preferred title color */
+  color: #374756 !important; 
   text-align: center;
+}
+
+/* Page titles specifically on banners should be light */
+.quarto-title-banner h1.title {
+  color: #d1dce0 !important;
 }
 
 /* All page headings */
@@ -95,4 +100,14 @@ h2, h3, h4, h5, h6 {
 /* Center title on stories page */
 .quarto-title-block {
   text-align: center;
+}
+/* Center title in title-block banners (like stories page) */
+.quarto-title-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.quarto-title-banner .quarto-title {
+  width: 100%;
 }

@@ -9,9 +9,13 @@ title-block-banner: media/banner-perch.jpg
 <p class="text-left fs-4">If you can't access any of the articles, please reach out and I will happily share. </p>
 <u>Underlined</u> Student; * Graduate student; ** Shared co-authorship
 
+##### 2026
+
+- Fuller N., Kraskura K., Hrynko S., Chanov M.K., Suski J.G., Choi Y.J., Lee L.S., Salice C.J. (2026) The influence of temperature and conductivity on metabolism and Per- and Polyfluoroalkyl Substance (PFAS) bioconcentration in Bluegill (Lepomis macrochirus). Ecotoxicology. 28;35(4):74. doi: 10.1007/s10646-026-03027-6.
+
 ##### 2025
 
-- Pleizier, N., Schwieterman, G.D., Birnie-Gauvin, K., Blewett, T.A., Dressler, T.L., Hardison, E.A., K.M.Jeffries. Kraskura, K., Teffer, A.K., Van Wert, J.C., Eliason, E.J. Conservation physiology of freshwater fishes: an illustration of pressing questions and implications for management. In Press. Conservation Physiology.
+- Pleizier, N., Schwieterman, G.D., Birnie-Gauvin, K., Blewett, T.A., Dressler, T.L., Hardison, E.A., K.M.Jeffries. Kraskura, K., Teffer, A.K., Van Wert, J.C., Eliason, E.J. (2025) Conservation physiology of freshwater fishes: an illustration of pressing questions and implications for management. Conservation Physiology 4;13(1):coaf057. doi: 10.1093/conphys/coaf057.
 
 
 ##### 2024

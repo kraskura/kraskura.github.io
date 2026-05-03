@@ -1,0 +1,20 @@
+---
+title: "Preview in our lab activities"
+description: ""
+author: "Krista Kraskura"
+date: "2026-05-02"
+image: "../media/surfperch-logo.jpeg" # Optional: Preview image for the listings page
+categories: ["field", "lab"]
+---
+
+Lot's of moving pieces, but we could not be more grateful for having a wonderful support from TU staff and faculty.
+
+---
+
+### Photo Gallery
+
+::: {layout-ncol=2}
+
+Coming soon!
+
+:::

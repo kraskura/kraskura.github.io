@@ -1,10 +1,14 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "Posts/*.qmd"
+    - "!AGENTS.md"
 
 website:
   title: "Kraskura Lab"
-  favicon: media/logos/fish-1.png # on the browser tab 
+  favicon: media/logos/fish.png # on the browser tab 
   navbar:
     # left:
     #   - href: index.qmd
