@@ -23,7 +23,7 @@ website:
       - href: publications.qmd
         text: PUBLICATIONS
       - href: stories.qmd
-        text: LAB ACTIVITIES
+        text: OUR LAB
     tools:
       - href: https://github.com/kraskura
         icon: github

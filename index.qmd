@@ -15,7 +15,7 @@ We take an integrative approach, combining laboratory experiments, field studies
 
 ---------------------------------------
 
-<p class="text-center fs-4"> We are always excited to exchange ideas and establish new connections-- If you are interested in what we do and would like to join the lab - we would love to hear from you!</p>
+<p class="text-center fs-4"> We are always excited to exchange ideas and establish new connections. We would love to hear from you!</p>
 
 ---------------------------------------
 

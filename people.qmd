@@ -26,6 +26,17 @@ listing:
     type: grid
     max-description-length: 700
     grid-item-border: false
+  - id: past-students
+    contents: People/people-past.yml
+    type: table
+    fields: [title, role, contributions, after]
+    field-display-names:
+      title: "Name"
+      role: "Title"
+      contributions: "Contributions"
+      after: "After our lab"
+    sort-ui: false
+    filter-ui: false
 
 ---
 
@@ -42,13 +53,8 @@ listing:
 :::
 
 
-
-<!--
-## Previously mentored students 
-
-<br>
+## Past lab members
 
 
 :::{#past-students}
 :::
--->
