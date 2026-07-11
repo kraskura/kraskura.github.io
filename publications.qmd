@@ -71,4 +71,4 @@ title-block-banner: media/banner-perch.jpg
 - Kraskura, K., Patterson, D.A., Eliason, E.J. (2020) Swim performance of salmon: a comprehensive review and data synthesis. Technical Report. Pacific Salmon Commission, Vancouver, B.C., Canada.
 
 <br>
-**Additional links**: [Google Scholar](https://scholar.google.com/citations?user=EVMUHDcAAAAJ&hl=en), [Research Gate](https://www.researchgate.net/profile/Krista-Kraskura), [Dryad](https://datadryad.org/search?q=0000-0001-9225-3037)
+**Additional links**: [Google Scholar](https://scholar.google.com/citations?hl=en&user=Y1wG12sAAAAJ), [Research Gate](https://www.researchgate.net/profile/Krista-Kraskura), [Dryad](https://datadryad.org/search?q=0000-0001-9225-3037)

@@ -28,9 +28,14 @@ $navbar-hl: #9EACB1; /* navbar hover/active color */
 /* Page title styling (default dark) */
 .quarto-title-block .quarto-title h1.title,
 h1.title {
-  color: #374756 !important; 
+  color: #c2cad1 !important; 
   text-align: center;
 }
+// h1.title {
+//   color: #374756 !important; 
+//   text-align: center;
+// }
+
 
 /* Page titles specifically on banners should be light */
 .quarto-title-banner h1.title {

@@ -1,5 +1,5 @@
 ---
-title: "Fish Ecological Physiology at Towson University"
+title: ""
 image: media/surfperch-logo.jpeg
 about: 
     template: solana
@@ -7,7 +7,7 @@ about:
     image-width: 30em
 ---
 
-<h2>Welcome to our lab's site!</h2>
+<h2>Fish Ecological Physiology at Towson University</h2>
 
 We explore how aquatic ectotherms—especially fish—respond to various natural and human-induced environmental stressors such as temperature fluctuations, salinity changes, hypoxia, altered flows, and toxicants.
 

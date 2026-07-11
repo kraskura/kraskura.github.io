@@ -1,5 +1,6 @@
 project:
   type: website
+  title: "kraskuraecophys"
   output-dir: docs
   render:
     - "*.qmd"
@@ -27,7 +28,7 @@ website:
     tools:
       - href: https://github.com/kraskura
         icon: github
-      - href: https://scholar.google.com/citations?hl=en&user=EVMUHDcAAAAJ
+      - href: https://scholar.google.com/citations?hl=en&user=Y1wG12sAAAAJ
         icon: google scholar
       - href: https://www.researchgate.net/profile/Krista-Kraskura?ev=hdr_xprf
         icon: file-person
@@ -45,6 +46,7 @@ website:
 
 format:
   html:
+    title-prefix: "kraskuraecophyslab"
     theme: 
       light: [cosmo, styles/styles.scss]
     mainfont: Avenir
