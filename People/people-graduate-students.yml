@@ -1,5 +1,5 @@
 
-- title: Yvette Gaytan
+- title: "Yvette Gaytan"
   image: media/yvette-gaytan.jpg
   subtitle: Master's Student
   description: "'I love fish! I am especially interested in temperature tolerance, blood physiology and blood cell morphology, and how climate change affects fish's performance curves. Outside of research, I dabble in many hobbies including weightlifting, video gaming, and playing guitar.'"
@@ -15,7 +15,6 @@
   subtitle: Research Assistant.
   description: "'I recently finished my master's of science in marine biology, where I researched Atlantic Blue Crab habitat use and movement ecology. In the Kraskura Lab I am excited to broaden my knowledge of animal physiology, and I am especially interested in the effects of human-made environmental pollutants on aquatic organisms. In my free time I like to do yoga, crochet, and spend time with my cat Stella. '"
 
-
 - title: "Faith Matthews"
   image: media/faith-matthews.jpg
   subtitle: Undergraduate Student. Co-mentored with Dr. Christopher Salice
@@ -24,27 +23,38 @@
 - title: "Zoe Worthy"
   image: media/zoe-worthy.jpg
   subtitle: Undergraduate Student. 
-  description: "'I’m most excited to learn about human impact on our water systems. I think in the media there is a lot of focus on terrestrial life and too much of general outlook on aquatic systems. This lab does just that with a focus on what we have in our own backyard. I like to dance and my favorite kind of day is a full day at the beach!'"
+  description: "'I'm most excited to learn about human impact on our water systems. I think in the media there is a lot of focus on terrestrial life and too much of general outlook on aquatic systems. This lab does just that with a focus on what we have in our own backyard. I like to dance and my favorite kind of day is a full day at the beach!'"
 
 - title: "Janaiya Milton"
   image: media/janaiya-milton.jpg
-  subtitle: Undergraduate Student. TU TIGURS fellow.
+  subtitle: Undergraduate Student. 2026 TU TIGURS fellow.
   description: "'I'm excited to collect and organize data. I want to learn more about fish in general, along with amphibians. I love playing video games and writing about what I play!'"
 
 - title: "Alyson Siple"
   image: media/alyson-siple.png
   subtitle: Undergraduate Student. 
-  description: "'I’m most excited about learning about the tadpoles, whether it’s about salty ponds or whatever other experiments we do I just love frogs! I am also really excited to get a lot of different experiences! Something interesting about me is that I am learning to crochet!'"
+  description: "'I'm most excited about learning about the tadpoles, whether it’s about salty ponds or whatever other experiments we do I just love frogs! I am also really excited to get a lot of different experiences! Something interesting about me is that I am learning to crochet!'"
 
 - title: "Alyssa Harsh"
   image: media/alyssa-harsh.jpg
   subtitle: Undergraduate Student. 
   description: "'I'm really interested in Lemur conservation but I also love marine life and sustainability. Whenever I'm free I love to Crochet, do photography, rollerblade, and kayak!'"
 
-- title: "Andrew Blair"
-  image: media/andrew-blair.jpg
-  subtitle: Undergraduate Student. 
-  description: "'I am interested in learning about how fish and other aquatic organisms acclimate and adapt to changing in environmental conditions, including changes due to anthropogenic activity. I love reading, hiking with my dog, and music of all kinds.'"
+- title: "Sam Norris"
+  image: media/sam-norris.jpg
+  subtitle: Undergraduate Student. Advanced Research Fellow. Co-mentored with Dr. Steven Kimble. 
+  description: "'I'm excited to learn about northern map turtle locomotion and support their conservation. In my free time, I like to draw and go looking for reptiles and amphibians.'"
+
+- title: "Brianna Hutchins"
+  image: media/brianna-hutchins.jpg
+  subtitle: Master's Student in Dr. Salice Lab. We collaborate on Striped Bass project. 
+  description: "'I am excited to learn about how various fish species are impacted by different factors such as increased temperatures and emergent contaminants such as algal toxins. As climate continues to change in the Chesapeake Bay Watershed, monitoring the effects on local fish populations such as striped bass will be important! In my free time, I love to bake and hike. My goal is to eventually hit all of the state parks in Maryland!'"
+
+
+# - title: "Andrew Blair"
+#   image: media/andrew-blair.jpg
+#   subtitle: Undergraduate Student. 
+#   description: "'I am interested in learning about how fish and other aquatic organisms acclimate and adapt to changing in environmental conditions, including changes due to anthropogenic activity. I love reading, hiking with my dog, and music of all kinds.'"
 
 
 

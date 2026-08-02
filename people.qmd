@@ -40,7 +40,7 @@ listing:
 
 ---
 
-<p class="text-center fs-4"> Join us! We are always happy to hear from interested undergraduate and graduate students. </p>
+<p class="text-center fs-4"> Please reach out if you are interested in joining or collaborating!. </p>
 
 <br> 
 

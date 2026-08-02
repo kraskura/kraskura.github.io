@@ -1,6 +1,6 @@
 project:
   type: website
-  title: "kraskuraecophys"
+  title: "Fish Ecological Physiology"
   output-dir: docs
   render:
     - "*.qmd"
