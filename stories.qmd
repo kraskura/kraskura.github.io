@@ -10,9 +10,10 @@ listing:
   sort: "date desc"
   categories: true
 
+
 ---
 
-<p class="text-center fs-4">In Progress. We will report on our adventures looking for salty frogs, working with Striped bass embryos and larvae, and more.</p>
+<p class="text-center fs-4">We are in the building stage of this - more to come! </p>
 
 ::: {#update-listings}
 :::

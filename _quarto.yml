@@ -24,7 +24,7 @@ website:
       - href: publications.qmd
         text: PUBLICATIONS
       - href: stories.qmd
-        text: OUR LAB
+        text: OUR LAB IN ACTION
     tools:
       - href: https://github.com/kraskura
         icon: github
@@ -46,7 +46,7 @@ website:
 
 format:
   html:
-    title-prefix: "kraskuraecophyslab"
+    title-prefix: "Fish Ecophysiology at TU"
     theme: 
       light: [cosmo, styles/styles.scss]
     mainfont: Avenir

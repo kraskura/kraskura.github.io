@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>quarto-inpute4659a56eed28b06 – kraskuraecophyslab</title>
+<title>quarto-inputce0cc84b87375a37 – Fish Ecophysiology at TU</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-fish-ecophys .list');
+    const listingTargetEl = window.document.querySelector('#listing-fish-stripedbass .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -86,7 +86,35 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-fish-ecophys'] = new List('listing-fish-ecophys', options);
+    window['quarto-listings']['listing-fish-stripedbass'] = new List('listing-fish-stripedbass', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-restoration-phys .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-restoration-phys'] = new List('listing-restoration-phys', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -157,7 +185,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-ecotox-ecophys .list');
+    const listingTargetEl = window.document.querySelector('#listing-tadpoles .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -166,11 +194,11 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-image","listing-image-alt","listing-description"],
+      searchColumns: ["listing-title","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-ecotox-ecophys'] = new List('listing-ecotox-ecophys', options);
+    window['quarto-listings']['listing-tadpoles'] = new List('listing-tadpoles', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -221,11 +249,11 @@ window.Quarto = {
 };
 </script>
 
-<meta property="og:title" content="|  | PROJECTS |  – kraskuraecophyslab">
+<meta property="og:title" content="|  | PROJECTS |  – Fish Ecophysiology at TU">
 <meta property="og:description" content="">
-<meta property="og:image" content="media/striped-bass-larva.jpg">
+<meta property="og:image" content="media/juv-striped-post.png">
 <meta property="og:site_name" content="Kraskura Lab">
-<meta property="og:image:alt" content="Barred surfperch">
+<meta property="og:image:alt" content="striped bass pictures">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -265,7 +293,7 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./stories.html"> 
-<span class="menu-text">OUR LAB</span></a>
+<span class="menu-text">OUR LAB IN ACTION</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -313,20 +341,68 @@ PROJECTS<br>
 We investigate physiological mechanisms in fish (and other animals) from a variety of habitats to characterise their resilience and vulnerability under natural and human-associated environmental change. Open-minded and joy filled whiteboard brainstorming session is one of our favorite lab activities!
 </p>
 <p><br></p>
-<div id="listing-fish-ecophys" class="quarto-listing quarto-listing-container-default">
+<div id="listing-fish-stripedbass" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
 <div class="quarto-post image-left" data-index="0">
 <div class="thumbnail"><a href="" class="no-external">
 
-<img loading="lazy" src="media/striped-bass-larva.jpg" class="thumbnail-image" alt="Barred surfperch">
+<img loading="lazy" src="media/juv-striped-post.png" class="thumbnail-image" alt="striped bass pictures">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="" class="no-external">Ecological physiology of fish across body sizes and lifestages</a>
+<a href="" class="no-external">Environmental tolerance of striped bass across lifestages</a>
 </h3>
 <div class="delink listing-description"><a href="" class="no-external">
-<p><br> We are exploring thermal tolerance in early life striped bass. As fish grow and mature, they may shift habitats, encounter new environmental stressors, and reallocate energy from growth toward reproduction. Our projects explore both acute and acclimation responses in fish and other ectotherms across body size (and life-stags) as they face a range of environmental challenges. Through this work, we aim to better understand the physiological mechanisms that drive species’ vulnerability or resilience in dynamic ecosystems.</p>
+<p><br> We are exploring environmental tolerance in early life striped bass. As fish grow and mature, they may shift habitats, encounter new environmental stressors, and reallocate energy from growth toward reproduction. Our current projects explore both acute and acclimation responses in striped bass embryos, larvae, and juveniles as they face a range of environmental challenges (e.g., temperatures, hypoxia). Through this work, we aim to better understand the physiological mechanisms that drive vulnerability and resilience of fish in dynamic ecosystems.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="" class="no-external">
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div id="listing-restoration-phys" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-left" data-index="0">
+<div class="thumbnail"><a href="" class="no-external">
+
+<img loading="lazy" src="media/restor-post.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="" class="no-external">Restoration physiology</a>
+</h3>
+<div class="delink listing-description"><a href="" class="no-external">
+<p><br> Stream restoration is widely used to improve degraded aquatic ecosystems and support the recovery of biodiversity and ecosystem function. We examine how fish respond to restoration efforts in Baltimore County streams, with a particular focus on physiological performance and habitat use. By combining traditional field-based ecological assessments with physiological measurements and habitat modeling, we aim to better understand how restoration influences fish health, performance, and distribution.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="" class="no-external">
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div id="listing-tadpoles" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-left" data-index="0">
+<div class="thumbnail"><a href="" class="no-external">
+
+<img loading="lazy" src="media/peeper-post.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="" class="no-external">Tadpole performance in salty conditions</a>
+</h3>
+<div class="delink listing-description"><a href="" class="no-external">
+<p><br> Road de-icing salt runoff is raising baseline salinity levels in freshwater environments, including ephemeral ponds, where many amphibians reproduce and develop. Our projects examine how tadpoles of common frog species across northeastern America cope with these changing conditions. We are combining organismal performances with transcriptomic analyses to understand the biological impacts of freshwater salinization on tadpoles and identify the mechanisms that enable resilience or contribute to sensitivity. This is team work with Drs Jacqueline Doyle (TU) and Will Ryan (Dartmouth College).</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -366,7 +442,7 @@ We investigate physiological mechanisms in fish (and other animals) from a varie
 <div class="quarto-post image-left" data-index="0">
 <div class="thumbnail"><a href="" class="no-external">
 
-<img loading="lazy" src="media/turtle-hatchlings.png" class="thumbnail-image" alt="turtle hatchling">
+<img loading="lazy" src="media/turtle-post.jpg" class="thumbnail-image" alt="turtle hsatchling">
 
 </a></div>
 <div class="body">
@@ -374,7 +450,7 @@ We investigate physiological mechanisms in fish (and other animals) from a varie
 <a href="" class="no-external">Locomotion in freshwater turtles</a>
 </h3>
 <div class="delink listing-description"><a href="" class="no-external">
-<p><br> Over half of freshwater turtle species face extinction risks. Hatchlings are the most vulnerable - They are tiny, extremely prone to predation, and generally have very low survival rates. We will measure locomotive performance as part of a larger interdisciplinary project with TU colleagues Drs. Steve Kimble, Xin Huang, and Ryan Casey.</p>
+<p><br> Over half of freshwater turtle species face extinction risks. Hatchlings are the most vulnerable - They are tiny, extremely prone to predation, and generally have very low survival rates. We are measuring locomotive performance as part of a larger interdisciplinary project with TU colleagues Drs. Steve Kimble, Xin Huang, and Ryan Casey.</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -385,33 +461,6 @@ We investigate physiological mechanisms in fish (and other animals) from a varie
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-<div id="listing-ecotox-ecophys" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0">
-<div class="thumbnail"><a href="" class="no-external">
-
-<img loading="lazy" src="media/PFAS-bluegill.jpg" class="thumbnail-image" alt="PFAS image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="" class="no-external">Ecological toxicology</a>
-</h3>
-<div class="delink listing-description"><a href="" class="no-external">
-<p><br> We are interested in how human-made and natural contaminants impact function of fish and ultimately ecosystems. For example, PFAS, often called “forever chemicals,” are a broad class of persistent and bioaccumulative compounds found globally in water, air, soil, sediment. Exposure to PFAS can have harmful effects on the health of both animals and humans. This research path is inspired from work done with Dr.&nbsp;Salice’s here at TU. We focus on understanding PFAS bioaccumulation across food webs in wild ecosystems, where exposure varies across time and space.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="" class="no-external">
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<p class="text-center fs-3">
-Check in soon to learn more about the upcoming collaborative projects on anemones and tadpoles.
-</p>
 
 
 

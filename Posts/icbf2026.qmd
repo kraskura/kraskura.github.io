@@ -1,0 +1,17 @@
+---
+title: "16th International Congress on the Biology of Fish"
+description: "Vancouver, Canada"
+author: "Krista Kraskura"
+date: "2026-07-12"
+image: "../media/stories/icbf2026.jpeg" # Optional: Preview image for the listings page
+categories: ["conferences"]
+title-block-banner: media/banner-beach.jpg
+
+---
+
+Graduate Student Yvette Gaytan presented her thesis preliminary results and plans moving forward. Great work Yvette! 
+It was such a inspirational meeting, great science, community, and conference venue (picture from a morning walk). 
+Can't wait to for next ICBF in Manaus, Brazil in 2028!
+
+<img src="../media/stories/icbf26.jpeg" alt="">
+

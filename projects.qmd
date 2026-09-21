@@ -7,8 +7,16 @@ title: |
   | <br>
 title-block-banner: media/banner-carp.jpg
 listing: 
-  - id: fish-ecophys
+  - id: fish-stripedbass
     contents: Projects/projects-fish.yml
+    image-align: left
+    fields: [image, title, description]
+    filter-ui: false
+    sort-ui: false
+    type: default
+    max-description-length: 4000
+  - id: restoration-phys
+    contents: Projects/projects-restoration.yml
     image-align: left
     fields: [image, title, description]
     filter-ui: false
@@ -31,8 +39,8 @@ listing:
     sort-ui: false
     type: default
     max-description-length: 4000
-  - id: ecotox-ecophys
-    contents: Projects/projects-ecotox.yml
+  - id: tadpoles
+    contents: projects-tadpoles.yml
     image-align: left
     fields: [image, title, description]
     filter-ui: false
@@ -40,13 +48,21 @@ listing:
     type: default
     max-description-length: 4000
 
+
 ---
 
 <p class="text-center fs-4"> We investigate physiological mechanisms in fish (and other animals) from a variety of habitats to characterise their resilience and vulnerability under natural and human-associated environmental change. Open-minded and joy filled whiteboard brainstorming session is one of our favorite lab activities!</p>
 
 <br> 
 
-:::{#fish-ecophys}
+:::{#fish-stripedbass}
+:::
+
+:::{#restoration-phys}
+:::
+
+
+:::{#tadpoles}
 :::
 
 :::{#crayfish-animals}
@@ -55,7 +71,6 @@ listing:
 :::{#turtles}
 :::
 
-:::{#ecotox-ecophys}
-:::
 
-<p class="text-center fs-3"> Check in soon to learn more about the upcoming collaborative projects on anemones and tadpoles. </p>
+
+

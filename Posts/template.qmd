@@ -1,20 +1,13 @@
 ---
-title: "Preview in our lab activities"
+title: "Kraskura Lab at Towson opened!"
 description: ""
 author: "Krista Kraskura"
-date: "2026-05-02"
-image: "../media/surfperch-logo.jpeg" # Optional: Preview image for the listings page
-categories: ["field", "lab"]
----
-
-Lot's of moving pieces, but we could not be more grateful for having a wonderful support from TU staff and faculty.
+date: "2025-08-30"
+image: "../media/stories/surfperch-logo.jpeg" # Optional: Preview image for the listings page
+categories: ["lab"]
+title-block-banner: media/banner-beach.jpg
 
 ---
 
-### Photo Gallery
-
-::: {layout-ncol=2}
-
-Coming soon!
-
-:::
+We could not be more excited to start Fish Ecological Physiology Lab here at Towson University with a wonderful support from the collective.
+ 
